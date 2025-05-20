@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        body {
+            background-image: url('pictures/pic2.avif'); /* or use 'pic2.avif' if in same directory */
+            background-size: cover;  /* Cover the whole page */
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-attachment: fixed; /* Optional, keeps background fixed during scroll */
+        }
+    </style>
+</head>
+<body>
+    <img src="pictures/Screenshot (5).png" alt="Admin" height="50px" width="50px">
+    <header><h1>Admin Dashboard</h1></header>
+    
+    <main>
+        <nav>
+            <button onclick="location.href='manage-patients.php'">Manage Patients</button>
+            <button onclick="location.href='manage-doctors.php'">Manage Doctors</button>
+            <button onclick="location.href='manage-appointments.php'">Manage Appointments</button>
+            <button onclick="location.href='logout.php'">Logout</button>
+        </nav>
+    </main>
+    <footer>&copy; 2025 Medical Records System</footer>
+</body>
+</html>

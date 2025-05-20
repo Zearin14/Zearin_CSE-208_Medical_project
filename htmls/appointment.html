@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Appointments</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header><h1>Book an Appointment</h1></header>
+    <main>
+        <form id="appointment-form" method="post" action="php/appointments.php">
+            <label>Patient Name:<input type="text" name="patient_name" required></label>
+            <label>Doctor:<input type="text" name="doctor" required></label>
+            <label>Date:<input type="date" name="date" required></label>
+            <label>Time:<input type="time" name="time" required></label>
+            <button type="submit">Book Appointment</button>
+        </form>
+    </main>
+    <footer>&copy; 2025 Medical Records System</footer>
+</body>
+</html>
